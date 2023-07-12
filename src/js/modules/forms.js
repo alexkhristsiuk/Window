@@ -54,6 +54,8 @@ const forms = (state) => {
                     closeModalByTime('.popup_engineer');
                     closeModalByTime('.popup_calc_end');
                     closeModalByTime('.popup');
+                    state = {};
+                    console.log(state);
                 })
         })
 
